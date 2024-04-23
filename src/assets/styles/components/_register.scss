@@ -1,0 +1,71 @@
+// Define colors
+$dark-gray: #333333;
+$gray: #808080;
+$olive: #556b2f;
+$light-gray: #cccccc;
+$milky: #f9f9f9;
+$white: #ffffff;
+
+// Apply colors to different parts of the registration page
+.register-container {
+    // width: 500px;
+    background-color: $milky;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 0 auto; 
+    border: 1px solid $dark-gray;
+    border-radius: 5px;
+    box-shadow: 0 0 10px $light-gray;
+    background-color: $milky;
+    padding: 20px;
+  }
+
+h2 {
+  color: $olive;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: $dark-gray;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid $gray;
+  border-radius: 3px;
+}
+
+.register-button {
+  background-color: $olive;
+  color: $white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+
+.register-button:hover {
+  background-color: darken($olive, 10%);
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.register-link a {
+  color: $olive;
+}
